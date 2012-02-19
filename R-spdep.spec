@@ -12,6 +12,8 @@ Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deld
 Requires:         R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda
 BuildRequires:    R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 A collection of functions to create spatial weights matrix objects from
