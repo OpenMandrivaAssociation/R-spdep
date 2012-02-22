@@ -8,10 +8,13 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5-43.tar.gz
-Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda 
-Requires:         R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda
-BuildRequires:    R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
+Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools
+Requires:         R-deldir R-coda R-snow R-rlecuyer R-spam R-RANN
+Requires:         R-RColorBrewer R-lattice 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools
+BuildRequires:    R-deldir R-coda R-snow R-rlecuyer R-spam R-RANN
+BuildRequires:    R-RColorBrewer R-lattice
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
