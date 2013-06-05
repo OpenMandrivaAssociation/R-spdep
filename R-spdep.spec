@@ -1,13 +1,13 @@
 %global packname  spdep
 %global rlibdir  %{_libdir}/R/library
 Name:             R-%{packname}
-Version:          0.5_43
+Version:          0.5.56
 Release:          1
 Summary:          Spatial dependence: weighting schemes, statistics and models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5-43.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/spdep_0.5-56.tar.gz
 Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools
 Requires:         R-deldir R-coda R-snow R-rlecuyer R-spam R-RANN
 Requires:         R-RColorBrewer R-lattice 
@@ -64,3 +64,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/etc
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
