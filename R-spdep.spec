@@ -2,7 +2,7 @@
 %global rlibdir  %{_libdir}/R/library
 Name:             R-%{packname}
 Version:          0.5_43
-Release:          1
+Release:          2
 Summary:          Spatial dependence: weighting schemes, statistics and models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
