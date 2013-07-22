@@ -1,20 +1,20 @@
 %global packname  spdep
 %global rlibdir  %{_libdir}/R/library
+
 Name:             R-%{packname}
-Version:          0.5_43
-Release:          2
+Version:          0.5.56
+Release:          1
 Summary:          Spatial dependence: weighting schemes, statistics and models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.5-43.tar.gz
-Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools
-Requires:         R-deldir R-coda R-snow R-rlecuyer R-spam R-RANN
-Requires:         R-RColorBrewer R-lattice 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools
-BuildRequires:    R-deldir R-coda R-snow R-rlecuyer R-spam R-RANN
-BuildRequires:    R-RColorBrewer R-lattice
+Source0:          http://cran.r-project.org/src/contrib/spdep_0.5-56.tar.gz
+Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda 
+Requires:         R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
+Requires:         R-LearnBayes
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda
+BuildRequires:    R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
+BuildRequires:    R-LearnBayes
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
@@ -64,3 +64,12 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/etc
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Sun Feb 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5_43-1
++ Revision: 777131
+- Import R-spdep
+- Import R-spdep
+
+
