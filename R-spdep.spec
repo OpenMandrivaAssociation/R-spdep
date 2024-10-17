@@ -7,7 +7,7 @@ Release:          1
 Summary:          Spatial dependence: weighting schemes, statistics and models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/spdep_0.5-56.tar.gz
 Requires:         R-methods R-sp R-boot R-Matrix R-MASS R-nlme R-maptools R-deldir R-coda 
 Requires:         R-snow R-rlecuyer R-spam R-RANN R-RColorBrewer R-lattice 
